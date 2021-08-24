@@ -1,0 +1,46 @@
+:root {
+  --background-color: #393E46;
+  --font-color: #4ECCA3;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+h1 {
+  font-family: "Lobster", cursive;
+  font-size: 8rem;
+  color: var(--font-color);
+  margin: 35px;
+}
+
+.content {
+text-align: center;
+}
+
+.player {
+  display: inline-block;
+}
+
+.player p {
+  font-family: "Indie flower", cursive;
+  color: var(--font-color);
+  font-size: 2rem;
+}
+
+.player img {
+  width: 60%;
+}
+
+footer {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+footer p {
+  font-family: "Indie flower", cursive;
+  color: white;
+  text-align: center;
+}
